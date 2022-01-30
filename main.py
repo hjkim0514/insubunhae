@@ -14,6 +14,8 @@ def jorip(poly, mok):
             multi = mok * result[-1]
             plus = poly[i] + multi
             result.append(plus)
+
+
             trys += 1
     return result
 
